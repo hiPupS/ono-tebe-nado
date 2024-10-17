@@ -2,3 +2,69 @@
     width: 100%;
     margin: 0 auto;
   }
+
+  .header {
+    display: grid;
+    grid-template-columns: 1.51fr 2fr 1.5fr;
+    align-items: center;
+    padding: 92px 51px 89px;
+  }
+
+  .header__links-list {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .header__links-list-item {
+    list-style: circle;
+  }
+  
+  .header__links-list-item_no-bullit {
+    list-style: none;
+  }
+  
+  .header__link {
+    font-size: 18px;
+    white-space: nowrap;
+  }
+  
+  .text-link:hover {
+    background-color: #000000;
+    color: #FFF;
+  }
+  
+  .header__link_active {
+    text-decoration: none;
+  }
+  
+  .header__logo {
+    display: block;
+    justify-self: center;
+    align-self: center;
+    width: 140px;
+  }
+  
+  .header__logo-image {
+    width: 100%;
+  }
+  
+  .address {
+    font-style: inherit;
+  }
+  
+  .header__address {
+    justify-self: end;
+    font-style: inherit;
+  }
+  
+  .address__item {
+    display: block;
+    font-size: 18px;
+    line-height: 1.35;
+    text-underline-position: under;
+  }
+  
+  .address__address-text {
+    font-size: 18px;
+    line-height: 1.35;
+  }
