@@ -85,6 +85,7 @@ main {
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .overlay {
@@ -187,6 +188,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 25px;
+  row-gap: 25px;
   list-style: none;
 }
 
@@ -197,6 +199,7 @@ main {
 .card-link {
   display: block;
   height: 100%;
+  text-decoration: none;
 }
 
 .card {
